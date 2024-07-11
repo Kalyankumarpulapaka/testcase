@@ -2,15 +2,12 @@
   "name": "support-desk",
   "version": "1.0.0",
   "description": "",
-  "main": "Backend/server.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "server": "nodemon Backend/server.js",
-    "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "pranav",
+  "author": "kalyan kumar pulapaka",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
